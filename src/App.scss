@@ -1,0 +1,15 @@
+.btn-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .btn {
+    width: 70px;
+    cursor: pointer;
+
+    &:first-child {
+      margin-right: 5px;
+    }
+  }
+}
